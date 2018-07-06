@@ -38,6 +38,8 @@ readme          text
 ## CONFIGS
 *.conf          text
 *.config        text
+*.yaml          text
+*.yml           text
 .editorconfig   text=auto
 .gitattributes  text=auto
 .gitconfig      text=auto
