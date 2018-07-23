@@ -1,0 +1,7 @@
+-   id: remove-byte-order-mark
+    name: Remove UTF byte-order-mark
+    description: A hook script to remove UTF byte-order-mark headers.
+    entry: pre_commit_hooks/remove-byte-order-mark.sh
+    language: script
+    files: ''
+    minimum_pre_commit_version: 0.12.0
