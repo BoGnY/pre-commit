@@ -24,5 +24,4 @@ repos:
     hooks:
     -   id: remove-tabs
         args: [ --whitespaces-count, '4' ]
-        files: ''
         exclude_types: [text, markdown]
