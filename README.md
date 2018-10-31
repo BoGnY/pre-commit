@@ -8,6 +8,7 @@ Git pre-commit hook scripts to integrate with [pre-commit](http://pre-commit.com
 - [Two ways to invoke pre-commit](#two-ways-to-invoke-pre-commit)
 - [Supported hooks](#supported-hooks)
   * [`remove-byte-order-mark`](#remove-byte-order-mark)
+- [Changelog](#changelog)
 - [License](#license)
 
 ## Configure pre-commit
@@ -55,6 +56,10 @@ If you want to run the checks on-demand (outside of git hooks), run:
 ```
 
 A bash script that automatically remove UTF8 and UTF16 byte order mark from any files. Will exit if encounter any error.
+
+## Changelog
+
+Please see [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
